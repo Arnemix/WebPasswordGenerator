@@ -1,0 +1,38 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Remplacez #333 par la couleur sombre de votre choix */
+    color: #fff; /* Couleur du texte sur le fond sombre (blanc dans cet exemple) */
+}
+
+#container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+#container div {
+    margin-bottom: 10px; /* Espacement vertical de 20 pixels entre chaque div à l'intérieur de #container */
+}
+
+#container > * {
+    margin-bottom: 20px; /* Espacement vertical de 20 pixels entre chaque élément direct de #container */
+}
+
+h1 {
+    font-size: 24px;
+}
+
+textarea {
+    width: 100%;
+    height: 40px;
+    resize: none;
+    font-family: monospace;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}

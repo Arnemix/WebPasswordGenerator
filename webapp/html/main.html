@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur de mots de passe (Bêta)</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Générateur de mots de passe (en développement)</h1>
+        <textarea id="generated-password" readonly></textarea>
+        <div id="options-container">
+            <div id="checkbox-special-chars-container">
+                <input type="checkbox" id="include-special-chars" name="include-special-chars">
+                <label for="include-special-chars">Inclure des caractères spéciaux</label>
+            </div>
+            <div id="checkbox-uppercase-container">
+                <input type="checkbox" id="include-uppercase" name="include-uppercase">
+                <label for="include-uppercase">Inclure des majuscules</label>
+            </div>
+            <div id="checkbox-digits-container">
+                <input type="checkbox" id="include-digits" name="include-digits">
+                <label for="include-digits">Inclure des chiffres</label>
+            </div>
+            <div id="password-length-container">
+                <label for="password-length">Longueur du mot de passe :</label>
+                <input type="range" id="password-length" name="password-length" min="6" max="20" value="12">
+                <span id="password-length-value">12</span>
+            </div>
+        </div>
+        <div id="button-container">
+            <button id="generate">Générer un Mot de Passe</button>
+        </div>
+    </div>
+
+    <script>
+        // Votre code JavaScript pour générer un mot de passe va ici
+    </script>
+</body>
+</html>
